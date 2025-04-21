@@ -1,0 +1,15 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body{
+  /*This is how i can add comments for future reference in css
+  without disturbing the code*/
+  font-family: Roboto, Arial;
+  margin: 0px;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-right: 24px;
+  padding-bottom: 1000px;
+  background-color: rgb(247,247,247);
+}

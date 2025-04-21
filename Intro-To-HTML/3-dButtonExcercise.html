@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      3D Buttons
+    </title>
+    <style>
+      .THREE-D{
+        font-size: 25px;
+        background-color: green;
+        border: none;
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.15s, margin-top 0.15s, margin-left 0.15s,
+        margin-bottom 0.15s, opacity 0.15s;
+        vertical-align: top;
+      }
+      .THREE-D:hover{
+        opacity: 0.88;
+      }
+      .THREE-D:active{
+      box-shadow: none;
+      margin-top: 13px;
+      margin-left: 13px;
+      margin-bottom: 7px;
+      }
+      .back{
+        margin-right: 10px;
+      }
+      .next{
+        margin-left: 10px;
+      }
+      .first{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        vertical-align: top;
+      }
+      .one{
+        text-decoration: underline;
+        color: purple;
+        margin-right: 4px;
+      }
+      .two{
+        text-decoration: underline;
+        color: purple;
+        margin-right: 4px;
+      }
+      .three{
+        text-decoration: underline;
+        color: purple;
+        margin-right: 4px;
+      }
+      .four{
+        text-decoration: underline;
+        color: purple;
+        margin-right: 4px;
+      }
+      .five{
+        text-decoration: underline;
+        color: purple;
+      }
+      .another{
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        vertical-align: top;
+      }
+      </style>
+
+  </head>
+  <body>
+    <button class="THREE-D">
+      Shadow
+    </button>
+    
+    <p class="first">
+      <button class="back">Back</button>
+      <span class="one">1</span> <span class="two">2</span> <span class="three">3</span>
+      <span class="four">4</span> <span class="five">5</span>
+      <button class="next">Next</button>
+    </p>
+    
+    <p class="another">
+      <button class="back">Back</button>
+      <u>1 2 3 4 5</u>
+      <button class="next">Next</button>
+    </p>
+
+  </body>
+</html>
+
+
+
+
